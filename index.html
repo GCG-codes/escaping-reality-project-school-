@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+  </head>
+  <body>
+
+    <a-scene>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="50" height="50" color="#00611a"></a-plane>
+      <a-sky color="#ECECEC"></a-sky>
+  <a-entity id="unit with window">
+      <a-box position="0 3 0" src=concrete.jpg depth="1" side="double" height="6" width="13"></a-box>
+     <!--<a-box position="0 3 5" src=concrete.jpg side="double" depth="1" height="6" width="13"></a-box>-->
+     <<a-box position="-3.65 3 5" src=concrete.jpg side="double" depth="1" height="6" width="5.7"></a-box>
+      <a-box position="2.8 1 5" src=concrete.jpg side="double" depth="1" height="2" width="7.4"></a-box>
+      <a-box position="-6 3 2" src=concrete.jpg side="double" depth ="5" height="6" width="1"></a-box>
+      <a-box position="6 3 2" src=concrete.jpg side="double" depth="5" height="6" width="1"></a-box>
+      <a-box position="0 6 2.5" src=concrete.jpg side="double" depth = "6" height="0.5" width="13"></a-box>
+      <a-box position="0 0.2 2.5" src=floor.jpg side="double" depth = "6" height="0.5" width="13"></a-box>
+      </a-entity>
+    
+    <a-entity position="15 0 0"id="unit with window">
+      <a-box position="0 3 0" src=concrete.jpg depth="1" side="double" height="6" width="13"></a-box>
+     <!--<a-box position="0 3 5" src=concrete.jpg side="double" depth="1" height="6" width="13"></a-box>-->
+     <<a-box position="-3.65 3 5" src=concrete.jpg side="double" depth="1" height="6" width="5.7"></a-box>
+      <a-box position="2.8 1 5" src=concrete.jpg side="double" depth="1" height="2" width="7.4"></a-box>
+      <a-box position="-6 3 2" src=concrete.jpg side="double" depth ="5" height="6" width="1"></a-box>
+      <a-box position="6 3 2" src=concrete.jpg side="double" depth="5" height="6" width="1"></a-box>
+      <a-box position="0 6 2.5" src=concrete.jpg side="double" depth = "6" height="0.5" width="13"></a-box>
+      <a-box position="0 0.2 2.5" src=floor.jpg side="double" depth = "6" height="0.5" width="13"></a-box>
+      </a-entity>
+    <a-entity position="22 6 -3 " id="unit without window">
+      <a-box position="0 3 0" src=concrete.jpg depth="1" side="double" height="6" width="13"></a-box>
+     <a-box position="0 3 5" src=concrete.jpg side="double" depth="1" height="6" width="13"></a-box>
+     <!--<a-box position="-3.65 3 5" src=concrete.jpg side="double" depth="1" height="6" width="5.7"></a-box>
+      <a-box position="2.8 1 5" src=concrete.jpg side="double" depth="1" height="2" width="7.4"></a-box>-->
+      <a-box position="-6 3 2" src=concrete.jpg side="double" depth ="5" height="6" width="1"></a-box>
+      <a-box position="6 3 2" src=concrete.jpg side="double" depth="5" height="6" width="1"></a-box>
+      <a-box position="0 6 2.5" src=concrete.jpg side="double" depth = "6" height="0.5" width="13"></a-box>
+      <a-box position="0 0.2 2.5" src=floor.jpg side="double" depth = "6" height="0.5" width="13"></a-box>
+    </a-entity>
+  <a-assets>
+    <img id="sky" src="sky.jpg">
+  </a-assets>
+  <a-sky src="#sky"></a-sky>
+
+    <a-entity position="7 6 -3" id="unit with window">
+      <a-box position="0 3 0" src=concrete.jpg depth="1" side="double" height="6" width="13"></a-box>
+     <!--<a-box position="0 3 5" src=concrete.jpg side="double" depth="1" height="6" width="13"></a-box>-->
+     <<a-box position="-3.65 3 5" src=concrete.jpg side="double" depth="1" height="6" width="5.7"></a-box>
+      <a-box position="2.8 1 5" src=concrete.jpg side="double" depth="1" height="2" width="7.4"></a-box>
+      <a-box position="-6 3 2" src=concrete.jpg side="double" depth ="5" height="6" width="1"></a-box>
+      <a-box position="6 3 2" src=concrete.jpg side="double" depth="5" height="6" width="1"></a-box>
+      <a-box position="0 6 2.5" src=concrete.jpg side="double" depth = "6" height="0.5" width="13"></a-box>
+      <a-box position="0 0.2 2.5" src=floor.jpg side="double" depth = "6" height="0.5" width="13"></a-box>
+      </a-entity>
+  
+    
+    <a-entity position="-7 6 -3" id="unit without window">
+      <a-box position="0 3 0" src=concrete.jpg depth="1" side="double" height="6" width="13"></a-box>
+     <a-box position="0 3 5" src=concrete.jpg side="double" depth="1" height="6" width="13"></a-box>
+     <!--<a-box position="-3.65 3 5" src=concrete.jpg side="double" depth="1" height="6" width="5.7"></a-box>
+      <a-box position="2.8 1 5" src=concrete.jpg side="double" depth="1" height="2" width="7.4"></a-box>-->
+      <a-box position="-6 3 2" src=concrete.jpg side="double" depth ="5" height="6" width="1"></a-box>
+      <a-box position="6 3 2" src=concrete.jpg side="double" depth="5" height="6" width="1"></a-box>
+      <a-box position="0 6 2.5" src=concrete.jpg side="double" depth = "6" height="0.5" width="13"></a-box>
+      <a-box position="0 0.2 2.5" src=floor.jpg side="double" depth = "6" height="0.5" width="13"></a-box>
+    </a-entity>
+    <a-entity position="0 13 0" id="unit without window">
+      <a-box position="0 3 0" src=concrete.jpg depth="1" side="double" height="6" width="13"></a-box>
+     <a-box position="0 3 5" src=concrete.jpg side="double" depth="1" height="6" width="13"></a-box>
+     <!--<a-box position="-3.65 3 5" src=concrete.jpg side="double" depth="1" height="6" width="5.7"></a-box>
+      <a-box position="2.8 1 5" src=concrete.jpg side="double" depth="1" height="2" width="7.4"></a-box>-->
+      <a-box position="-6 3 2" src=concrete.jpg side="double" depth ="5" height="6" width="1"></a-box>
+      <a-box position="6 3 2" src=concrete.jpg side="double" depth="5" height="6" width="1"></a-box>
+      <a-box position="0 6 2.5" src=concrete.jpg side="double" depth = "6" height="0.5" width="13"></a-box>
+      <a-box position="0 0.2 2.5" src=floor.jpg side="double" depth = "6" height="0.5" width="13"></a-box>
+
+      </a-entity>
+
+    </a-scene>
+  </body>
+</html>
